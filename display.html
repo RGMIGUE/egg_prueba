@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--
+   1 display:none
+   2 display:block
+   3 display:inline
+   4 display:iniline-block
+   5 display:inherit
+   6 display:flex
+   7 display:grid
+-->
+<style>
+    div{
+        border: solid red 2px;
+        margin: 20px;
+    }
+    /*pseudoclase*/
+    body>:nth-child(1){
+        display: none;
+    }
+    body>:nth-child(2){
+        display: block;
+    }
+    body>:nth-child(3){
+        display: inline;
+    }
+    body>:nth-child(4){
+        display: inline-block;
+    }
+    body>:nth-child(5){
+        display: inherit;
+    }
+    body>:nth-child(6){
+        display: flex;
+    }
+    body>:nth-child(7){
+        display: grid;
+    }
+</style>
+<body>
+    <div>Padre none
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+    <div>Padre block
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+    <div>Padre inline 
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+    <div>Padre inline-block
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+    <div>Padre inherit
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+    <div>Padre flex
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+    <div>Padre grid
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+        <div>Hijo
+            <div>hijo del hijo</div>
+            <div>hijo del hijo</div>
+        </div>
+    </div>
+</body>
+</html>

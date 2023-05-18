@@ -1,0 +1,111 @@
+.container0{
+    border: darkkhaki solid;
+    display: flex;
+    flex-direction: column; 
+}
+#caja1, #caja2, #caja3{
+    width: 100px;
+    height: 100px;/*alto*/
+    margin: 30px;
+    padding: 20px;
+}
+#caja1{
+    background-color: aqua;
+    align-self: flex-start;
+}
+#caja2{
+    background-color: rgb(41, 9, 156);
+    align-self: center;
+}
+#caja3{
+    background-color: black; 
+    align-self: self-end;
+    
+}
+/*-----------------------------------------------------------------------*/
+.container01{
+    border: black solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%; 
+}
+#caja01, #caja02, #caja03{
+    width: 100px;
+    height: 100px;/*alto*/
+    margin: 30px;
+    padding: 20px;
+     
+ }
+ #caja01{
+    background-color: aqua;
+    align-self: center;
+     
+ }
+ #caja02{
+    background-color: rgb(41, 9, 156);
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+     
+ }
+ #caja03{
+    background-color: black; 
+    align-self: center;
+     
+ }
+ .container01{
+    border: black solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+   
+   
+}
+#caja01, #caja02, #caja03{ 
+    width: 100px;
+    height: 100px;/*alto*/
+    margin: 30px;
+    padding: 20px;
+     
+ }
+ #caja01{
+    background-color: aqua;
+    align-self: center;
+     
+ }
+ #caja02{
+    background-color: rgb(41, 9, 156);
+    width: 100%;
+    padding: 0px;
+    margin: 0px; 
+ }
+ #caja03{
+    background-color: black; 
+    align-self: center;
+ }
+ /*------------------------------------------------*/
+ .container02{
+    border: black solid 2px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    height: 600px;
+}
+#caja001, #caja002, #caja003{
+    width: 100px;
+    height: 100px;/*alto*/
+    padding: 20px;
+ }
+ #caja001{
+    background-color: aqua;
+     
+ }
+ #caja002{
+    background-color: rgb(41, 9, 156);
+ }
+ #caja003{
+    background-color: black;   
+ }

@@ -1,0 +1,24 @@
+.container1{
+ height: 550px;
+ width: 950px;
+ border: red solid 2px;
+ background-color: antiquewhite;
+}
+.container2{
+    height: 550px;
+    width: 950px;
+    border: rgb(191, 89, 120) solid 2px;
+    background-color: rgb(239, 135, 0);
+   
+   }
+
+@media (max-width: 600px){
+.container1{
+    background-color: aqua;
+}
+}
+@media(max-width:400px){
+    .container2{
+        background-color: blue;
+    }
+}
